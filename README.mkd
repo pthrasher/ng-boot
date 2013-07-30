@@ -8,8 +8,8 @@ Getting Started
 
 
 ```
-git clone <repo_name> <project_name>
-cd <project_name>
+git clone https://github.com/pthrasher/ng-boot.git
+cd ng-boot
 npm i -g grunt-cli
 npm i
 grunt watch
