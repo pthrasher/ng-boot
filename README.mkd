@@ -1,0 +1,65 @@
+Thrash's ng-boot
+================
+
+A super-simple, very minimalist boilerplate for playing around with angular.
+
+Getting Started
+---------------
+
+
+```
+git clone <repo_name> <project_name>
+cd <project_name>
+npm i -g grunt-cli
+npm i
+grunt watch
+```
+
+
+What's included?
+----------------
+
+**Grunt Workflow**
+
+
+* Simple dev-server (grunt-contrib-connect)
+* File watching
+* Less compilation
+* CoffeeScript compilation
+
+
+**Third Party Libs:**
+
+
+* jQuery 2.0.3
+* Underscore 1.5.1
+* jQueryUI 1.10.3 (off by default)
+* jQueryUI Bootstrap Theme 0.5 (off by default)
+* Twitter Bootstrap (off by default)
+* Angular 1.0.7
+* Angular 1.1.5 (off by default)
+
+
+*off by default simply means that it is commented out in the html -- very
+simple to add back in if you'd like to. ;-)*
+
+
+Why?
+----
+
+
+Because I didn't like the other ones out there. Really, this is a local
+alternative to jsfiddle. It's often very hard to debug jsfiddle, and you can't
+do separate partials as html files in jsfiddle.
+
+
+What about testing?
+-------------------
+
+
+I accept pull requests. I didn't put this in, because when I'm playing around
+with new ideas, I usually do not write tests.
+
+I'm not opposed to having karma added in here, I just want this to remain as
+minimal, and friction-free as possible.
+
