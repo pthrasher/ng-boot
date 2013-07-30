@@ -15,6 +15,16 @@ npm i
 grunt watch
 ```
 
+**Fish Shell function**
+
+```
+function ngboot
+    git clone git@github.com:pthrasher/ng-boot.git $argv
+    cd $argv
+    npm i
+end
+```
+
 
 What's included?
 ----------------
