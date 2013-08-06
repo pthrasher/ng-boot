@@ -15,13 +15,41 @@ npm i
 grunt watch
 ```
 
-**Fish Shell function**
+**"Bash and Friends" Shell Function**
 
+```sh
+# A simple function to clone pthrasher's ng-boot
+# as a new playground for you to mess around with
+# angular.
+function ngboot {
+    if [ -z "$1" ]; then
+        echo "Clone boilerplate, and cd into dir.";
+        echo "usage: ngboot <project-name>";
+    else
+        git clone git@github.com:pthrasher/ng-boot.git $1;
+        cd $1;
+        sed -i \._ngboot 's/TITLETITLETITLE/test_sed/' index.html;
+        rm index.html._ngboot;
+        npm i;
+    fi
+}
 ```
-function ngboot
-    git clone git@github.com:pthrasher/ng-boot.git $argv
-    cd $argv
-    npm i
+
+
+**Fish Shell Function**
+
+```fish
+function ngboot -d "Clone an angular playground and name it to your liking."
+    if [ -z "$argv" ]
+        echo "Clone boilerplate, and cd into dir."
+        echo "usage: ngboot <project-name>"
+    else
+        git clone git@github.com:pthrasher/ng-boot.git $argv
+        cd $argv
+        sed -i \._ngboot 's/TITLETITLETITLE/test_sed/' index.html
+        rm index.html._ngboot
+        npm i
+    end
 end
 ```
 
