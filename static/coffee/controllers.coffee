@@ -1,14 +1,14 @@
+class RootCtrl
+    constructor: ($scope, $log) ->
+        $log.log 'RootCtrl reporting in.'
 
-RootCtrl = ($scope, $log) ->
-    $log.log 'RootCtrl reporting in.'
+        $scope.content = 'Hello there!'
 
-    $scope.content = 'Hello there!'
-
-    return
+        return
 
 
 angular.module('App.controllers', [])
-    .controller('RootCtrl', ['$scope', '$log', RootCtrl])
+    .controller('RootCtrl', RootCtrl)
 
 angular.module('App', [
     'App.services'
