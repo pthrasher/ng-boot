@@ -1,7 +1,9 @@
 Thrash's ng-boot
 ================
 
+
 A super-simple, very minimalist boilerplate for playing around with angular.
+
 
 Getting Started
 ---------------
@@ -13,6 +15,7 @@ cd ng-boot
 npm i -g grunt-cli
 npm i
 grunt watch
+open http://localhost:8080/
 ```
 
 **"Bash and Friends" Shell Function**
