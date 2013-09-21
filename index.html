@@ -4,9 +4,6 @@
     <meta charset="UTF-8">
     <title>TITLETITLETITLE</title>
 
-    <!-- /static/less/styles.less compiled -->
-    <link rel="stylesheet" href="/static/css/styles.css" />
-
     <!-- Base default jQueryUI theme -->
     <!-- <link rel="stylesheet" href="/static/js/vendor/jquery-ui/base-theme/jquery-ui.min.css" /> -->
 
@@ -14,23 +11,54 @@
     <!-- <link rel="stylesheet" href="/static/js/vendor/jquery-ui/tw-bootstrap-theme/jquery-ui-1.10.0.custom.css" /> -->
 
     <!-- Twitter bootstrap 2.3.2 -->
-    <!-- <link rel="stylesheet" href="/static/js/vendor/bootstrap/css/bootstrap.min.css" /> -->
-    <!-- <link rel="stylesheet" href="/static/js/vendor/bootstrap/css/bootstrap-responsive.min.css" /> -->
+    <!-- <link rel="stylesheet" href="/static/js/vendor/bootstrap-2.3.2/css/bootstrap.min.css" /> -->
+    <!-- <link rel="stylesheet" href="/static/js/vendor/bootstrap-2.3.2/css/bootstrap-responsive.min.css" /> -->
+
+    <!-- Twitter bootstrap 3 -->
+    <!-- <link rel="stylesheet" href="/static/js/vendor/bootstrap-3/css/bootstrap.min.css" /> -->
+
+    <!-- Optional Theme for Twitter bootstrap 3 to make it less flat -->
+    <!-- <link rel="stylesheet" href="/static/js/vendor/bootstrap-3/css/bootstrap-theme.min.css" /> -->
+
+
+    <!-- /static/less/styles.less compiled (last so you can override) -->
+    <link rel="stylesheet" href="/static/css/styles.css" />
+
 </head>
 <body>
 
     <div class="container"
-         ng-controller="RootCtrl"
-         ng-bind="content">
+         ng-controller="RootCtrl">
+         {{ content }}
     </div>
 
-    <script type="text/javascript" src="/static/js/vendor/underscore/underscore-1.5.1.min.js"></script>
+    <script type="text/javascript" src="/static/js/vendor/underscore/underscore-1.5.2.min.js"></script>
     <script type="text/javascript" src="/static/js/vendor/jquery/jquery-2.0.3.min.js"></script>
     <!-- <script type="text/javascript" src="/static/js/vendor/jquery-ui/jquery-ui-1.10.3.min.js"></script> -->
-    <!-- <script type="text/javascript" src="/static/js/vendor/bootstrap/bootstrap-2.3.2.min.js"></script> -->
-    <script type="text/javascript" src="/static/js/vendor/angular/angular-1.0.7.min.js"></script>
-    <!-- <script type="text/javascript" src="/static/js/vendor/angular/angular-1.1.5.min.js"></script> -->
 
+    <!-- Bootstrap 2.3.2 -->
+    <!-- <script type="text/javascript" src="/static/js/vendor/bootstrap-2.3.2/bootstrap.min.js"></script> -->
+
+    <!-- Bootstrap 3 -->
+    <!-- <script type="text/javascript" src="/static/js/vendor/bootstrap-3.0.0/bootstrap.min.js"></script> -->
+
+    <!-- Angular 1.0.8 (stable) -->
+    <!-- <script type="text/javascript" src="/static/js/vendor/angular-1.0.8/angular.min.js"></script> -->
+    <!-- <script type="text/javascript" src="/static/js/vendor/angular-1.0.8/angular-cookies.min.js"></script> -->
+    <!-- <script type="text/javascript" src="/static/js/vendor/angular-1.0.8/angular-resource.min.js"></script> -->
+    <!-- <script type="text/javascript" src="/static/js/vendor/angular-1.0.8/angular-sanitize.min.js"></script> -->
+
+
+    <!-- Angular 1.2.0 RC2 (unstable) -->
+    <script type="text/javascript" src="/static/js/vendor/angular-1.2.0-rc.2/angular.min.js"></script>
+    <!-- <script type="text/javascript" src="/static/js/vendor/angular-1.2.0-rc.2/angular-animate.min.js"></script> -->
+    <!-- <script type="text/javascript" src="/static/js/vendor/angular-1.2.0-rc.2/angular-cookies.min.js"></script> -->
+    <!-- <script type="text/javascript" src="/static/js/vendor/angular-1.2.0-rc.2/angular-resource.min.js"></script> -->
+    <!-- <script type="text/javascript" src="/static/js/vendor/angular-1.2.0-rc.2/angular-route.min.js"></script> -->
+    <!-- <script type="text/javascript" src="/static/js/vendor/angular-1.2.0-rc.2/angular-sanitize.min.js"></script> -->
+    <!-- <script type="text/javascript" src="/static/js/vendor/angular-1.2.0-rc.2/angular-touch.min.js"></script> -->
+
+    <!-- Your stuff -->
     <script type="text/javascript" src="/static/js/services.js"></script>
     <script type="text/javascript" src="/static/js/filters.js"></script>
     <script type="text/javascript" src="/static/js/directives.js"></script>

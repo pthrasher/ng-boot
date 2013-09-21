@@ -1,8 +1,8 @@
 class RootCtrl
-    constructor: ($scope, $log) ->
-        $log.log 'RootCtrl reporting in.'
+    constructor: (@$scope, @$log) ->
+        @$log.log 'RootCtrl reporting in.'
 
-        $scope.content = 'Hello there!'
+        @$scope.content = 'Hello there!'
 
         return
 

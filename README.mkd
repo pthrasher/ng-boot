@@ -66,16 +66,17 @@ What's included?
 * CoffeeScript compilation
 
 
-**Third Party Libs:**
+**Third Party Libs**
 
 
 * jQuery 2.0.3
-* Underscore 1.5.1
+* Underscore 1.5.2
 * jQueryUI 1.10.3 (off by default)
 * jQueryUI Bootstrap Theme 0.5 (off by default)
-* Twitter Bootstrap (off by default)
-* Angular 1.0.7
-* Angular 1.1.5 (off by default)
+* Twitter Bootstrap 2.3.2 (off by default)
+* Twitter Bootstrap 3.0.0 (off by default)
+* Angular 1.0.8 (off by default)
+* Angular 1.2.0 rc2
 
 
 *off by default simply means that it is commented out in the html -- very
