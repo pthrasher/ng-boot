@@ -18,7 +18,7 @@ grunt watch
 open http://localhost:8080/
 ```
 
-**"Bash and Friends" Shell Function**
+### "Bash and Friends" Shell Function
 
 ```sh
 # A simple function to clone pthrasher's ng-boot
@@ -39,7 +39,7 @@ function ngboot {
 ```
 
 
-**Fish Shell Function**
+### Fish Shell Function
 
 ```fish
 function ngboot -d "Clone an angular playground and name it to your liking."
@@ -60,7 +60,7 @@ end
 What's included?
 ----------------
 
-**Grunt Workflow**
+### Grunt Workflow
 
 
 * Simple dev-server (grunt-contrib-connect)
@@ -69,17 +69,17 @@ What's included?
 * CoffeeScript compilation
 
 
-**Third Party Libs**
+### Third Party Libs
 
 
-* jQuery 2.0.3
-* Underscore 1.5.2
-* jQueryUI 1.10.3 (off by default)
-* jQueryUI Bootstrap Theme 0.5 (off by default)
-* Twitter Bootstrap 2.3.2 (off by default)
-* Twitter Bootstrap 3.0.0 (off by default)
-* Angular 1.0.8 (off by default)
-* Angular 1.2.0 rc2
+* **jQuery 2.0.3**
+* **Underscore 1.5.2**
+* **Angular 1.2.0 rc2**
+* **Angular 1.0.8** (off by default)
+* **jQueryUI 1.10.3** (off by default)
+* **jQueryUI Bootstrap Theme 0.5** (off by default)
+* **Twitter Bootstrap 2.3.2** (off by default)
+* **Twitter Bootstrap 3.0.0** (off by default)
 
 
 *off by default simply means that it is commented out in the html -- very
@@ -98,10 +98,13 @@ do separate partials as html files in jsfiddle.
 What about testing?
 -------------------
 
+I'd like to see some super simple spec file stuff in here. I'm totally
+interested in pull requests. ;-)
 
-I accept pull requests. I didn't put this in, because when I'm playing around
+I didn't initially put this in, because when I'm playing around
 with new ideas, I usually do not write tests.
 
-I'm not opposed to having karma added in here, I just want this to remain as
-minimal, and friction-free as possible.
+I'm not opposed to having karma-runner added in here, so long as it doesn't
+hinder my original goal which is for this to remain as minimal, and
+friction-less as possible.
 
