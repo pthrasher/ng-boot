@@ -74,8 +74,7 @@ What's included?
 
 * **jQuery 2.0.3**
 * **Underscore 1.5.2**
-* **Angular 1.2.0 rc2**
-* **Angular 1.0.8** (off by default)
+* **Angular 1.2.5**
 * **jQueryUI 1.10.3** (off by default)
 * **jQueryUI Bootstrap Theme 0.5** (off by default)
 * **Twitter Bootstrap 2.3.2** (off by default)
