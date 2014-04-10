@@ -72,13 +72,11 @@ What's included?
 ### Third Party Libs
 
 
-* **jQuery 2.0.3**
-* **Underscore 1.5.2**
-* **Angular 1.2.5**
-* **jQueryUI 1.10.3** (off by default)
-* **jQueryUI Bootstrap Theme 0.5** (off by default)
-* **Twitter Bootstrap 2.3.2** (off by default)
-* **Twitter Bootstrap 3.0.0** (off by default)
+* **jQuery 2.1.0**
+* **LoDash 2.4.1**
+* **Angular 1.3.0-beta.5**
+* **jQueryUI 1.10.4** (off by default)
+* **Twitter Bootstrap 3.0.0**
 
 
 *off by default simply means that it is commented out in the html -- very
